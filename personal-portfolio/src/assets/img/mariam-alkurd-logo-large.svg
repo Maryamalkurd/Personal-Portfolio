@@ -1,0 +1,57 @@
+<svg width="300" height="120" viewBox="0 0 300 120" fill="none"
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mariam Alkurd</title>
+  <desc id="desc">Mariam Alkurd personal portfolio logo in violet, indigo, blue and cyan.</desc>
+
+  <defs>
+    <linearGradient id="logoGradient" x1="48" y1="18" x2="148" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B86CFF"/>
+      <stop offset="0.5" stop-color="#6C4DFF"/>
+      <stop offset="1" stop-color="#42C7FF"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="250" y1="35" x2="505" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B67CFF"/>
+      <stop offset="0.45" stop-color="#6B63FF"/>
+      <stop offset="1" stop-color="#55D6FF"/>
+    </linearGradient>
+
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Monogram -->
+  <g filter="url(#glow)">
+    <path d="M18 82V36L37 20L56 41L75 20L94 36V82"
+          stroke="url(#logoGradient)" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M48 82L70 51"
+          stroke="url(#logoGradient)" stroke-width="9"
+          stroke-linecap="round"/>
+    <path d="M10 76C33 101 77 104 112 79C124 70 132 60 136 49"
+          stroke="url(#logoGradient)" stroke-width="4"
+          stroke-linecap="round"/>
+    <circle cx="138" cy="45" r="5.5" fill="#56D7FF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="165" y="58"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="30" font-weight="700"
+        letter-spacing="0.8"
+        fill="#FFFFFF">Mariam</text>
+
+  <text x="165" y="94"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="30" font-weight="700"
+        letter-spacing="0.8"
+        fill="url(#nameGradient)">Alkurd</text>
+
+  <!-- Small accent line -->
+  <rect x="166" y="103" width="112" height="2.5" rx="1.25" fill="url(#nameGradient)" opacity="0.9"/>
+</svg>
