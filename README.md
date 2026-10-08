@@ -6,6 +6,8 @@ Full-stack project with dashboard (portfolio React js + Express js + postegreSQL
 -npm start 
 
 # Open terminal to run server.js 
+
+
 -node server.js
 <img width="1920" height="962" alt="screencapture-localhost-3000-admin-2026-10-08-20_05_33" src="https://github.com/user-attachments/assets/83039156-572b-4b50-a176-5a9a1fc59838" />
 <img width="1920" height="4065" alt="project-img2" src="https://github.com/user-attachments/assets/5580986f-37d0-49c4-82fd-8ada94f43f83" />
